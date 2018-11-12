@@ -16,6 +16,7 @@ html {
     background-size: cover;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .quotes-container {}
@@ -65,6 +66,26 @@ html {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.75
-    );
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.btn-cta {
+    font-weight: bold;
+border-radius: 23px;
+width: 160px;
+}
+
+.btn--red {
+ color: white;
+ background-color: #ff6305;
+ border-color: #ff6305;
+
+}
+
+.btn--red:hover
+.btn--red:active
+.btn--red:focus
+.btn--red:active:focus{
+    background-color: #ff6305;
+    border-color: #ff6305;
 }
