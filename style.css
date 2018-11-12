@@ -1,8 +1,6 @@
 body,
 html {
     font-family: 'Raleway', sans-serif;
-    background-color: #ek6f;
-    2ff;
 }
 
 .alert-container {}
@@ -71,21 +69,17 @@ html {
 
 .btn-cta {
     font-weight: bold;
-border-radius: 23px;
-width: 160px;
+    border-radius: 23px;
+    width: 160px;
 }
 
 .btn--red {
- color: white;
- background-color: #ff6305;
- border-color: #ff6305;
-
+    color: white;
+    background-color: #ff6305;
+    border-color: #ff6305;
 }
 
-.btn--red:hover
-.btn--red:active
-.btn--red:focus
-.btn--red:active:focus{
+.btn--red:hover .btn--red:active .btn--red:focus .btn--red:active:focus {
     background-color: #ff6305;
     border-color: #ff6305;
 }
